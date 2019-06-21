@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Build Error Page Responsive Widget Template :: w3layouts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="../static/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../static/assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+<div class="error_main">
+    <div class="content">
+        <h1>Build Error Page</h1>
+        <div class="error_content">
+            <span class="fa fa-frown-o"></span>
+            <h2>Sorry, <span th:text="${msg}">Page Not Found</span></h2>
+            <p>Nam eleifend velit eget dolor vestibulum ornare. Vestibulum est nulla, fermentum eget euismod et, tincidunt at dui. Nulla tellus nisl, semper id justo vel, rutrum finibus risus. Cras vel auctor odio.</p>
+            <form action="#" method="post">
+                <input class="serch" type="search" name="serch" placeholder="Search here" required="">
+                <button class="btn1"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <div class="clear"> </div>
+            </form>
+            <a class="b-home" href="#">Back to Home</a>
+        </div>
+        <div class="footer">
+            <p>&copy; Build Error Page 2018. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="blank">W3layouts</a></p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

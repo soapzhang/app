@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Registration Form Template</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+    <link rel="stylesheet" href="/app/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/app/assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/app/assets/css/form-elements.css">
+    <link rel="stylesheet" href="/app/assets/css/style.css">
+
+    <link rel="shortcut icon" href="/app/assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="/app/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="/app/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/app/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/app/assets/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+
+<body>
+
+<!-- Top menu -->
+<nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Bootstrap Registration Form Template</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="top-navbar-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+							<span class="li-text">
+								Put some text or
+							</span>
+                    <a href="#"><strong>links</strong></a>
+                    <span class="li-text">
+								here, or some icons:
+							</span>
+                    <span class="li-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-envelope"></i></a>
+								<a href="#"><i class="fa fa-skype"></i></a>
+							</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Top content -->
+<div class="top-content">
+
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 text">
+                    <h1><strong>Bootstrap</strong> Registration Form</h1>
+                    <div class="description">
+                        <p>
+                            This is a free responsive registration form made with Bootstrap.
+                            Download it on <a href="#"><strong>AZMIND</strong></a>, customize and use it as you like!
+                        </p>
+                    </div>
+                    <div class="top-big-link">
+                        <a class="btn btn-link-1" href="#">Button 1</a>
+                        <a class="btn btn-link-2" href="#">Button 2</a>
+                    </div>
+                </div>
+                <div class="col-sm-5 form-box">
+                    <div class="form-top">
+                        <div class="form-top-left">
+                            <h3>Sign up now</h3>
+                            <p>Fill in the form below to get instant access:</p>
+                        </div>
+                        <div class="form-top-right">
+                            <i class="fa fa-pencil"></i>
+                        </div>
+                    </div>
+                    <div class="form-bottom">
+                        <form role="form" action="/app/user" method="post" class="registration-form">
+                            <div class="form-group">
+                                <label class="sr-only" for="username">name</label>
+                                <input type="text" name="name" placeholder="用户名..."
+                                       class="username form-control" id="username">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="password">password</label>
+                                <input type="password" name="password" placeholder="密 码..."
+                                       class="password form-control" id="password">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="dob">birthday</label>
+                                <input type="date" name="birthday" placeholder="生 日..."
+                                       class="birthday form-control" id="dob">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="telephone">telephone</label>
+                                <input type="text" name="telephone" placeholder="电 话..."
+                                       class="form-about-yourself form-control" id="telephone"/>
+                            </div>
+                            <button type="submit" class="btn">Login in!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" title="网站模板">网站模板</a></div>
+</div>
+
+
+<!-- Javascript -->
+<script src="/app/assets/js/jquery-1.11.1.min.js"></script>
+<script src="/app/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="/app/assets/js/jquery.backstretch.min.js"></script>
+<script src="/app/assets/js/retina-1.1.0.min.js"></script>
+<script src="/app/assets/js/scripts.js"></script>
+
+<!--[if lt IE 10]>
+<script src="/app/assets/js/placeholder.js"></script>
+<![endif]-->
+
+</body>
+
+</html>
