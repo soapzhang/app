@@ -9,9 +9,9 @@ import java.util.List;
 public interface UserDao {
     void addUser(User u);
 
-    void updateUser(User u);
-
-    void deleteUser(int id);
-
-    List<User> getUsers(List<Integer> ids);
+//    void updateUser(User u);
+//
+//    void deleteUser(int id);
+//
+//    List<User> getUsers(List<Integer> ids);
 }

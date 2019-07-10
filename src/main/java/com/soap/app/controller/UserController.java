@@ -23,13 +23,12 @@ public class UserController {
     private UserService userService;
 
     @PostMapping
-    @ResponseBody
     public String addUser(User user) {
         user.setSex(1);
         user.setDob(new Date());
         user.setAddress("soap address");
         userService.saveUser(user);
-        return "OK";
+        return "stat";
     }
 
     public static void main(String[] args) {
@@ -42,7 +41,6 @@ public class UserController {
             }
         }
         System.out.println(a);
-        LongAdder
     }
 
 }
