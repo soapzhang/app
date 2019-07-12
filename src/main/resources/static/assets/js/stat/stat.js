@@ -34,3 +34,7 @@ $(".export").click(function () {
     form.append($("<input></input>").attr("type","hidden").attr("value",param.img).attr("name","img"));
     form.appendTo("body").submit().remove();
 });
+
+function exportWord() {
+    $(".main_body").wordExport("haha");
+}

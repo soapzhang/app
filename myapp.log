@@ -1394,3 +1394,24 @@ java.io.FileNotFoundException: File 'C:\Users\acer\Desktop\muban1.ftl' does not 
 2019-07-12 14:35:46.134  INFO 19612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-07-12 14:35:46.135  INFO 19612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-07-12 14:35:46.145  INFO 19612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-07-12 14:43:48.720  INFO 19612 --- [Thread-76] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐07‐12 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐07‐12 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐07‐12 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐07‐12 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐07‐12 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐07‐12 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐07‐12 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐07‐12 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐07‐12 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐07‐12 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1587 ms
+=2019‐07‐12 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐07‐12 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐07‐12 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐07‐12 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐07‐12 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐07‐12 === [http-nio-8080-exec-9] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐07‐12 === [http-nio-8080-exec-9] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐07‐12 === [http-nio-8080-exec-9] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 14 ms
+=2019‐07‐12 === [http-nio-8080-exec-6] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-8 - Starting...
+=2019‐07‐12 === [http-nio-8080-exec-6] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-8 - Start completed.

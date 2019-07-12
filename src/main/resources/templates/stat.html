@@ -5,13 +5,19 @@
     <title>柱状图</title>
     <script src="assets/js/api/echarts.js"></script>
     <script src="assets/js/api/jquery-1.11.1.js"></script>
+    <script src="assets/js/stat/FileSaver.js"></script>
+    <script src="assets/js/stat/jquery.wordexport.js"></script>
     <link type="text/css" rel="stylesheet" href="assets/css/stat/stat.css">
 </head>
 <body>
 <div class="header">
-    <h1>柱状图</h1>
+    <h1>网页头nav</h1></br>
+    <a href="javascript:void(0)" class="export_js" onclick="exportWord()">js直接导出页面(目前图片导不出，而且格式不太对)</a>
 </div>
 <div class="main_body">
+    <div>
+        <h1>柱状图</h1>
+    </div>
     <div class="description">
         <p class="desc">
             这是一段描述：PROPAGATION_REQUIRES_NEW 启动一个新的, 不依赖于环境的 "内部" 事务.
