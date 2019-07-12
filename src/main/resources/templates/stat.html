@@ -2,39 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="/app/assets/js/echarts.js"></script>
+    <title>柱状图</title>
+    <script src="assets/js/api/echarts.js"></script>
+    <script src="assets/js/api/jquery-1.11.1.js"></script>
+    <link type="text/css" rel="stylesheet" href="assets/css/stat/stat.css">
 </head>
 <body>
+<div class="header">
     <h1>柱状图</h1>
-    <div id="map" style="width: 1000px;height: 500px;">
-
+</div>
+<div class="main_body">
+    <div class="description">
+        <p class="desc">
+            这是一段描述：PROPAGATION_REQUIRES_NEW 启动一个新的, 不依赖于环境的 "内部" 事务.
+            这个事务将被完全 commited 或 rolled back 而不依赖于外部事务, 它拥有自己的隔离范围,
+            自己的锁, 等等. 当内部事务开始执行时, 外部事务将被挂起, 内务事务结束时,
+            外部事务将继续执行.
+        </p>
     </div>
+    <div id="map" style="width: 1000px;height: 500px;">
+    </div>
+    <div>
+        <input class="export" type="button" value="导出">
+    </div>
+</div>
+<div class="footer">
+    <label>@聚光科技 17681885688</label>
+</div>
+<script src="assets/js/stat/stat.js"></script>
 </body>
-<script type="text/javascript">
-    var map = echarts.init(document.getElementById("map"));
-    var option = {
-        title:{
-            text:'ECharts 入门示例'
-        },
-        tooltip:{
-
-        },
-        legend:{
-            data:['销量']
-        },
-        xAxis:{
-            data:['衬衫','羊毛衫',"雪纺衫","裤子","高跟鞋","袜子"]
-        },
-        yAxis:{
-
-        },
-        series:[{
-            name:'销量',
-            type:'bar',
-            data:[5,20,36,10,10,30]
-        }],
-    };
-    map.setOption(option);
-</script>
 </html>
