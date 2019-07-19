@@ -11,6 +11,9 @@ import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
+/**
+ * 文件处理的工具类
+ */
 public class AppFileUtils {
 
     /**
