@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@EnableTransactionManagement//开启注解式事务管理，等同于<tx:annotation-driven />
+@EnableTransactionManagement(proxyTargetClass = true)//开启注解式事务管理，等同于<tx:annotation-driven />
 @SpringBootApplication
 public class AppApplication {
 

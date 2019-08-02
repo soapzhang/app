@@ -1,51 +1,51 @@
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
-=2019‐07‐18 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
-=2019‐07‐18 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 5332 ms
-=2019‐07‐18 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
-=2019‐07‐18 === [http-nio-8080-exec-3] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
-=2019‐07‐18 === [http-nio-8080-exec-3] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
-=2019‐07‐18 === [http-nio-8080-exec-3] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 14 ms
-=2019‐07‐18 === [http-nio-8080-exec-7] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Starting...
-=2019‐07‐18 === [http-nio-8080-exec-7] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Start completed.
-=2019‐07‐18 === [HikariPool-1 housekeeper] === WARN === com.zaxxer.hikari.pool.HikariPool ==== HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s334ms136µs195ns).
-=2019‐07‐18 === [Thread-21] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [Thread-21] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Shutdown initiated...
-=2019‐07‐18 === [Thread-21] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Shutdown completed.
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
-=2019‐07‐18 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
-=2019‐07‐18 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 746 ms
-=2019‐07‐18 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
-=2019‐07‐18 === [http-nio-8080-exec-9] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
-=2019‐07‐18 === [http-nio-8080-exec-9] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
-=2019‐07‐18 === [http-nio-8080-exec-9] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 7 ms
-=2019‐07‐18 === [http-nio-8080-exec-4] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Starting...
-=2019‐07‐18 === [http-nio-8080-exec-4] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Start completed.
-=2019‐07‐18 === [http-nio-8080-exec-4] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 7223 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 13 ms
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Starting...
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Start completed.
+=2019‐08‐02 === [Thread-28] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [Thread-28] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Shutdown initiated...
+=2019‐08‐02 === [Thread-28] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Shutdown completed.
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 2535 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-10] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-10] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-10] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 8 ms
+=2019‐08‐02 === [http-nio-8080-exec-10] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Starting...
+=2019‐08‐02 === [http-nio-8080-exec-10] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Start completed.
+=2019‐08‐02 === [http-nio-8080-exec-10] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
 java.lang.ArithmeticException: / by zero
-	at com.soap.app.service.impl.UserServiceImpl.saveUser(UserServiceImpl.java:22) ~[classes/:na]
+	at com.soap.app.service.impl.UserServiceImpl.saveUser1(UserServiceImpl.java:32) ~[classes/:na]
+	at com.soap.app.service.impl.UserServiceImpl.saveUser(UserServiceImpl.java:24) ~[classes/:na]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
@@ -58,7 +58,7 @@ java.lang.ArithmeticException: / by zero
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at com.sun.proxy.$Proxy80.saveUser(Unknown Source) ~[na:na]
-	at com.soap.app.controller.UserController.addUser(UserController.java:30) ~[classes/:na]
+	at com.soap.app.controller.UserController.addUser(UserController.java:25) ~[classes/:na]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
@@ -113,32 +113,33 @@ java.lang.ArithmeticException: / by zero
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
-=2019‐07‐18 === [Thread-29] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [Thread-29] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Shutdown initiated...
-=2019‐07‐18 === [Thread-29] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Shutdown completed.
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
-=2019‐07‐18 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
-=2019‐07‐18 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1610 ms
-=2019‐07‐18 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
-=2019‐07‐18 === [http-nio-8080-exec-1] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
-=2019‐07‐18 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
-=2019‐07‐18 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 6 ms
-=2019‐07‐18 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Starting...
-=2019‐07‐18 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Start completed.
-=2019‐07‐18 === [http-nio-8080-exec-1] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+=2019‐08‐02 === [Thread-36] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [Thread-36] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Shutdown initiated...
+=2019‐08‐02 === [Thread-36] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Shutdown completed.
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1789 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 6 ms
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Starting...
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Start completed.
+=2019‐08‐02 === [http-nio-8080-exec-9] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
 java.lang.ArithmeticException: / by zero
-	at com.soap.app.service.impl.UserServiceImpl.saveUser(UserServiceImpl.java:23) ~[classes/:na]
+	at com.soap.app.service.impl.UserServiceImpl.saveUser1(UserServiceImpl.java:32) ~[classes/:na]
+	at com.soap.app.service.impl.UserServiceImpl.saveUser(UserServiceImpl.java:24) ~[classes/:na]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
@@ -151,7 +152,7 @@ java.lang.ArithmeticException: / by zero
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
 	at com.sun.proxy.$Proxy83.saveUser(Unknown Source) ~[na:na]
-	at com.soap.app.controller.UserController.addUser(UserController.java:30) ~[classes/:na]
+	at com.soap.app.controller.UserController.addUser(UserController.java:25) ~[classes/:na]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
@@ -206,22 +207,41 @@ java.lang.ArithmeticException: / by zero
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
-=2019‐07‐18 === [http-nio-8080-exec-10] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+=2019‐08‐02 === [Thread-42] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [Thread-42] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Shutdown initiated...
+=2019‐08‐02 === [Thread-42] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Shutdown completed.
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 2437 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 6 ms
+=2019‐08‐02 === [http-nio-8080-exec-2] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Starting...
+=2019‐08‐02 === [http-nio-8080-exec-2] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Start completed.
+=2019‐08‐02 === [http-nio-8080-exec-2] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
 java.lang.ArithmeticException: / by zero
-	at com.soap.app.service.impl.UserServiceImpl.saveUser(UserServiceImpl.java:23) ~[classes/:na]
+	at com.soap.app.service.impl.UserServiceImpl.saveUser1(UserServiceImpl.java:32) ~[classes/:na]
+	at com.soap.app.service.impl.UserServiceImpl.saveUser(UserServiceImpl.java:24) ~[classes/:na]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
 	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
-	at com.sun.proxy.$Proxy83.saveUser(Unknown Source) ~[na:na]
-	at com.soap.app.controller.UserController.addUser(UserController.java:30) ~[classes/:na]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.sun.proxy.$Proxy86.saveUser(Unknown Source) ~[na:na]
+	at com.soap.app.controller.UserController.addUser(UserController.java:25) ~[classes/:na]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
@@ -276,68 +296,922 @@ java.lang.ArithmeticException: / by zero
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
-=2019‐07‐18 === [Thread-35] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [Thread-35] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Shutdown initiated...
-=2019‐07‐18 === [Thread-35] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Shutdown completed.
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
-=2019‐07‐18 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
-=2019‐07‐18 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1509 ms
-=2019‐07‐18 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
-=2019‐07‐18 === [http-nio-8080-exec-1] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
-=2019‐07‐18 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
-=2019‐07‐18 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 3 ms
-=2019‐07‐18 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Starting...
-=2019‐07‐18 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Start completed.
-=2019‐07‐18 === [Thread-41] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [Thread-41] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Shutdown initiated...
-=2019‐07‐18 === [Thread-41] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Shutdown completed.
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
-=2019‐07‐18 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
-=2019‐07‐18 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1898 ms
-=2019‐07‐18 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
-=2019‐07‐18 === [http-nio-8080-exec-10] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
-=2019‐07‐18 === [http-nio-8080-exec-10] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
-=2019‐07‐18 === [http-nio-8080-exec-10] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 8 ms
-=2019‐07‐18 === [http-nio-8080-exec-10] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Starting...
-=2019‐07‐18 === [http-nio-8080-exec-10] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Start completed.
-=2019‐07‐18 === [Thread-47] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [Thread-47] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Shutdown initiated...
-=2019‐07‐18 === [Thread-47] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Shutdown completed.
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-=2019‐07‐18 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
-=2019‐07‐18 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
-=2019‐07‐18 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 967 ms
-=2019‐07‐18 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
-=2019‐07‐18 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
-=2019‐07‐18 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
-=2019‐07‐18 === [Thread-58] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [http-nio-8080-exec-10] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.soap.app.service.impl.UserServiceImpl.saveUser1(UserServiceImpl.java:32) ~[classes/:na]
+	at com.soap.app.service.impl.UserServiceImpl.saveUser(UserServiceImpl.java:24) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:205) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.sun.proxy.$Proxy86.saveUser(Unknown Source) ~[na:na]
+	at com.soap.app.controller.UserController.addUser(UserController.java:25) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+=2019‐08‐02 === [Thread-48] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [Thread-48] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Shutdown initiated...
+=2019‐08‐02 === [Thread-48] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Shutdown completed.
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 2800 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-2] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-2] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-2] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 8 ms
+=2019‐08‐02 === [http-nio-8080-exec-2] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Starting...
+=2019‐08‐02 === [http-nio-8080-exec-2] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Start completed.
+=2019‐08‐02 === [Thread-54] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [Thread-54] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Shutdown initiated...
+=2019‐08‐02 === [Thread-54] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Shutdown completed.
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1518 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [Thread-60] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 2391 ms
+=2019‐08‐02 === [restartedMain] === WARN === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImplA': Unsatisfied dependency expressed through field 'serviceB'; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'userServiceImplB' is expected to be of type 'com.soap.app.service.impl.UserServiceImplB' but was actually of type 'com.sun.proxy.$Proxy93'
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Stopping service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.l.ConditionEvaluationReportLoggingListener ==== 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+=2019‐08‐02 === [restartedMain] === ERROR === o.s.b.diagnostics.LoggingFailureAnalysisReporter ==== 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userServiceImplB' could not be injected as a 'com.soap.app.service.impl.UserServiceImplB' because it is a JDK dynamic proxy that implements:
+	com.soap.app.service.UserServiceB
+
+
+Action:
+
+Consider injecting the bean as one of its interfaces or forcing the use of CGLib-based proxies by setting proxyTargetClass=true on @EnableAsync and/or @EnableCaching.
+
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 9969 ms
+=2019‐08‐02 === [restartedMain] === WARN === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImplA': Unsatisfied dependency expressed through field 'serviceB'; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'userServiceImplB' is expected to be of type 'com.soap.app.service.impl.UserServiceImplB' but was actually of type 'com.sun.proxy.$Proxy67'
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Stopping service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.l.ConditionEvaluationReportLoggingListener ==== 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+=2019‐08‐02 === [restartedMain] === ERROR === o.s.b.diagnostics.LoggingFailureAnalysisReporter ==== 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userServiceImplB' could not be injected as a 'com.soap.app.service.impl.UserServiceImplB' because it is a JDK dynamic proxy that implements:
+	com.soap.app.service.UserServiceB
+
+
+Action:
+
+Consider injecting the bean as one of its interfaces or forcing the use of CGLib-based proxies by setting proxyTargetClass=true on @EnableAsync and/or @EnableCaching.
+
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 5160 ms
+=2019‐08‐02 === [restartedMain] === WARN === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImplA': Unsatisfied dependency expressed through field 'serviceB'; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'userServiceImplB' is expected to be of type 'com.soap.app.service.impl.UserServiceImplB' but was actually of type 'com.sun.proxy.$Proxy67'
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Stopping service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.l.ConditionEvaluationReportLoggingListener ==== 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+=2019‐08‐02 === [restartedMain] === ERROR === o.s.b.diagnostics.LoggingFailureAnalysisReporter ==== 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userServiceImplB' could not be injected as a 'com.soap.app.service.impl.UserServiceImplB' because it is a JDK dynamic proxy that implements:
+	com.soap.app.service.UserServiceB
+
+
+Action:
+
+Consider injecting the bean as one of its interfaces or forcing the use of CGLib-based proxies by setting proxyTargetClass=true on @EnableAsync and/or @EnableCaching.
+
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 7126 ms
+=2019‐08‐02 === [restartedMain] === WARN === o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ==== Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImplA': Unsatisfied dependency expressed through field 'userServiceImplB'; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'userServiceImplB' is expected to be of type 'com.soap.app.service.impl.UserServiceImplB' but was actually of type 'com.sun.proxy.$Proxy67'
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Stopping service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.l.ConditionEvaluationReportLoggingListener ==== 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+=2019‐08‐02 === [restartedMain] === ERROR === o.s.b.diagnostics.LoggingFailureAnalysisReporter ==== 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'userServiceImplB' could not be injected as a 'com.soap.app.service.impl.UserServiceImplB' because it is a JDK dynamic proxy that implements:
+	com.soap.app.service.UserServiceB
+
+
+Action:
+
+Consider injecting the bean as one of its interfaces or forcing the use of CGLib-based proxies by setting proxyTargetClass=true on @EnableAsync and/or @EnableCaching.
+
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 8689 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [Thread-26] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ==== For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 7734 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 44 ms
+=2019‐08‐02 === [Thread-25] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1536 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [http-nio-8080-exec-10] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-10] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-10] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 8 ms
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Starting...
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Start completed.
+=2019‐08‐02 === [Thread-33] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [Thread-33] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Shutdown initiated...
+=2019‐08‐02 === [Thread-33] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-1 - Shutdown completed.
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1956 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 12 ms
+=2019‐08‐02 === [Thread-39] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1394 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 8 ms
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Starting...
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Start completed.
+=2019‐08‐02 === [http-nio-8080-exec-1] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is org.springframework.transaction.IllegalTransactionStateException: No existing transaction found for transaction marked with propagation 'mandatory'] with root cause
+org.springframework.transaction.IllegalTransactionStateException: No existing transaction found for transaction marked with propagation 'mandatory'
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:364) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:475) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:289) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.soap.app.service.impl.UserServiceImplB$$EnhancerBySpringCGLIB$$7a395c13.saveUserB(<generated>) ~[classes/:na]
+	at com.soap.app.service.impl.UserServiceImplA.saveUser(UserServiceImplA.java:27) ~[classes/:na]
+	at com.soap.app.controller.UserController.addUser(UserController.java:25) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+=2019‐08‐02 === [Thread-45] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [Thread-45] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Shutdown initiated...
+=2019‐08‐02 === [Thread-45] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-2 - Shutdown completed.
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1837 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 10 ms
+=2019‐08‐02 === [Thread-51] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1772 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 8 ms
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Starting...
+=2019‐08‐02 === [http-nio-8080-exec-1] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Start completed.
+=2019‐08‐02 === [http-nio-8080-exec-1] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only] with root cause
+org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:873) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:710) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:534) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:305) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.soap.app.service.impl.UserServiceImplA$$EnhancerBySpringCGLIB$$669dd370.saveUser(<generated>) ~[classes/:na]
+	at com.soap.app.controller.UserController.addUser(UserController.java:25) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+=2019‐08‐02 === [http-nio-8080-exec-4] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only] with root cause
+org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:873) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:710) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:534) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:305) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.soap.app.service.impl.UserServiceImplA$$EnhancerBySpringCGLIB$$669dd370.saveUser(<generated>) ~[classes/:na]
+	at com.soap.app.controller.UserController.addUser(UserController.java:25) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+=2019‐08‐02 === [http-nio-8080-exec-2] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only] with root cause
+org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:873) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:710) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:534) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:305) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.soap.app.service.impl.UserServiceImplA$$EnhancerBySpringCGLIB$$669dd370.saveUser(<generated>) ~[classes/:na]
+	at com.soap.app.controller.UserController.addUser(UserController.java:25) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+=2019‐08‐02 === [Thread-57] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [Thread-57] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Shutdown initiated...
+=2019‐08‐02 === [Thread-57] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-3 - Shutdown completed.
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 3053 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-2] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-2] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-2] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 5 ms
+=2019‐08‐02 === [http-nio-8080-exec-8] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Starting...
+=2019‐08‐02 === [http-nio-8080-exec-8] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Start completed.
+=2019‐08‐02 === [http-nio-8080-exec-8] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only] with root cause
+org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:873) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:710) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:534) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:305) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.soap.app.service.impl.UserServiceImplA$$EnhancerBySpringCGLIB$$669dd370.saveUser(<generated>) ~[classes/:na]
+	at com.soap.app.controller.UserController.addUser(UserController.java:25) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+=2019‐08‐02 === [Thread-63] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [Thread-63] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Shutdown initiated...
+=2019‐08‐02 === [Thread-63] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-4 - Shutdown completed.
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 2133 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [Thread-69] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 3907 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [Thread-75] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 3842 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [Thread-81] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 2582 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [Thread-87] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1962 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 9 ms
+=2019‐08‐02 === [Thread-93] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 2235 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Initializing Servlet 'dispatcherServlet'
+=2019‐08‐02 === [http-nio-8080-exec-9] === INFO === org.springframework.web.servlet.DispatcherServlet ==== Completed initialization in 9 ms
+=2019‐08‐02 === [http-nio-8080-exec-8] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Starting...
+=2019‐08‐02 === [http-nio-8080-exec-8] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Start completed.
+=2019‐08‐02 === [http-nio-8080-exec-8] === ERROR === o.a.c.c.C.[.[localhost].[/app].[dispatcherServlet] ==== Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.soap.app.service.impl.UserServiceImplB.saveUserB(UserServiceImplB.java:22) ~[classes/:na]
+	at com.soap.app.service.impl.UserServiceImplB$$FastClassBySpringCGLIB$$cd5fcbea.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:295) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98) ~[spring-tx-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.soap.app.service.impl.UserServiceImplB$$EnhancerBySpringCGLIB$$7a395c13.saveUserB(<generated>) ~[classes/:na]
+	at com.soap.app.service.impl.UserServiceImplA.saveUser(UserServiceImplA.java:40) ~[classes/:na]
+	at com.soap.app.controller.UserController.addUser(UserController.java:25) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+=2019‐08‐02 === [Thread-99] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [Thread-99] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Shutdown initiated...
+=2019‐08‐02 === [Thread-99] === INFO === com.zaxxer.hikari.HikariDataSource ==== HikariPool-5 - Shutdown completed.
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat initialized with port(s): 8080 (http)
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardService ==== Starting service [Tomcat]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.StandardEngine ==== Starting Servlet engine: [Apache Tomcat/9.0.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+=2019‐08‐02 === [restartedMain] === INFO === org.apache.catalina.core.AprLifecycleListener ==== OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+=2019‐08‐02 === [restartedMain] === INFO === o.a.c.c.ContainerBase.[Tomcat].[localhost].[/app] ==== Initializing Spring embedded WebApplicationContext
+=2019‐08‐02 === [restartedMain] === INFO === org.springframework.web.context.ContextLoader ==== Root WebApplicationContext: initialization completed in 1883 ms
+=2019‐08‐02 === [restartedMain] === INFO === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.a.web.servlet.WelcomePageHandlerMapping ==== Adding welcome page template: index
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.autoconfigure.OptionalLiveReloadServer ==== LiveReload server is running on port 35729
+=2019‐08‐02 === [restartedMain] === INFO === o.s.boot.web.embedded.tomcat.TomcatWebServer ==== Tomcat started on port(s): 8080 (http) with context path '/app'
+=2019‐08‐02 === [restartedMain] === INFO === o.s.b.d.a.ConditionEvaluationDeltaLoggingListener ==== Condition evaluation unchanged

@@ -1,7 +1,7 @@
 package com.soap.app.controller;
 
 import com.soap.app.entity.User;
-import com.soap.app.service.UserService;
+import com.soap.app.service.UserServiceA;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
     @Autowired
-    private UserService userService;
+    private UserServiceA userService;
 
     @PostMapping
     public String addUser(User user) {
