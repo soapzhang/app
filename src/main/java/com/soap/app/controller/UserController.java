@@ -1,7 +1,10 @@
 package com.soap.app.controller;
 
 import com.soap.app.entity.User;
+import com.soap.app.service.TestAutowiredIn;
 import com.soap.app.service.UserServiceA;
+import com.soap.app.service.impl.TextServiceA;
+import com.soap.app.service.impl.TextServiceB;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,12 +20,22 @@ public class UserController {
     @Autowired
     private UserServiceA userService;
 
+    @Autowired
+    private TextServiceA textServiceA;
+    @Autowired
+    private TextServiceB textServiceB;
+    @Autowired
+    private TestAutowiredIn testAutowired;
+
     @PostMapping
     public String addUser(User user) {
         user.setSex(1);
         user.setDob(new Date());
         user.setAddress("soap address");
         userService.saveUser(user);
+        textServiceA.testMethod("A");
+        textServiceB.testMethod("B");
+        testAutowired.method1();
         return "stat";
     }
 
